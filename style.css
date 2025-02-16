@@ -1,0 +1,72 @@
+/* Reset CSS */
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+/* img{
+    width: 100%;
+} */
+
+
+.body-container{
+width:auto;
+max-width: 1000px;
+/* outline: 1px solid red; */
+margin:auto;
+
+}
+ header ul {
+margin:15px 0 10px 30px;
+
+ }
+ header p{
+    border-bottom: 1px solid #a9a7a7;
+ }
+ 
+ .main-content{
+    margin-top: 20px;
+  display: flex;
+
+ }
+ .main-content-top{
+    outline: 1px solid blue;
+width: 65%;
+/* display: flex;
+justify-content: space-between;
+gap: 20px; */
+/* flex-direction: column; */
+height: 200px;
+ }
+
+ .find-place-section{
+width: 40%;
+height: 100px;
+
+ }
+ 
+
+ .places-section{
+    outline: 1px solid red;
+width: 65%;
+height: 100px;
+display: flex;
+gap: 10px;
+ }
+
+ .amsterdam-section{
+outline: 1px solid green;
+width: 40%
+ }
+
+ .other-cities-section{
+border:1px solid pink;
+width: 60%;
+ }
+ 
+ /* #San-Francisco-CA{
+
+    display: flex;
+ } */
